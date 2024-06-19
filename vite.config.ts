@@ -17,6 +17,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./"),
       "@ui": path.resolve(__dirname, "./src/components/ui/"),
       "@pages": path.resolve(__dirname, "./src/pages/"),
+      "@redux": path.resolve(__dirname, "./src/redux/"),
     },
   },
 });
