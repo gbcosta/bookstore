@@ -34,7 +34,7 @@ export const Drawer = () => {
           translate: drawerState ? "0" : "-100%",
           transition: "translate 0.4s",
         }}
-        className="h-screen flex  fixed top-0 left-0 w-full z-10"
+        className="h-screen flex fixed top-0 left-0 w-full z-10"
       >
         <div
           ref={ref}
@@ -49,8 +49,8 @@ export const Drawer = () => {
             <IoMdClose className="text-2xl" />
           </div>
           <div
-            className="flex flex-row w-full justify-center items-center py-1 bg-zinc-100
-          group-focus:border-2 gourp-focus:border-blue-500 mb-4 px-2"
+            className="flex flex-row w-full justify-center items-center py-1 bg-z
+            inc-100 group-focus:border-2 gourp-focus:border-blue-500 mb-4 px-2"
           >
             <input className="w-full outline-none bg-zinc-100" />
             <IoSearchSharp className="text-xl" />
@@ -62,7 +62,10 @@ export const Drawer = () => {
           </ul>
           <div className="flex flex-row justify-between font-bold items-center">
             <div className="cursor-pointer ">Register</div>
-            <div className="cursor-pointer bg-gray-900 rounded-md py-2 px-4 text-white">
+            <div
+              className="cursor-pointer bg-gray-900 rounded-md py-2 px-4
+              text-white"
+            >
               Login
             </div>
           </div>
